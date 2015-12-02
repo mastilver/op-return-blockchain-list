@@ -1,0 +1,46 @@
+{
+  "name": "op-return-blockchain-list",
+  "version": "1.0.0",
+  "description": "List of op_return found in the blockchain",
+  "license": "MIT",
+  "repository": "mastilver/op-return-blockchain-list",
+  "author": {
+    "name": "Thomas Sileghem",
+    "email": "tsileghem@neworbit.co.uk",
+    "url": "mastilver.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava",
+    "update": "node ./update.js"
+  },
+  "files": [
+    "index.js",
+    "data.json"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "ava": "^0.5.0",
+    "babel": "^5.8.34",
+    "babel-core": "^5.8.34",
+    "rimraf": "^2.4.4",
+    "xo": "^0.11.2"
+  },
+  "xo": {
+    "esnext": false,
+    "envs": [
+      "node"
+    ],
+    "space": 4,
+    "rules": {
+      "linebreak-style": 0
+    }
+  }
+}
